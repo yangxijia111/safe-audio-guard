@@ -1,0 +1,26 @@
+# ---- Build results ----
+[Bb]in/
+[Oo]bj/
+[Dd]ist/
+*.publishsettings
+
+# ---- User / machine specific ----
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ---- IDE ----
+.vs/
+.vscode/
+.idea/
+
+# ---- Logs & temp ----
+*.log
+*.tmp
+
+# ---- NuGet ----
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
