@@ -1,10 +1,10 @@
 # Codex / Zcode / Trae 开发执行提示词
 
-你是一名熟悉 Windows Core Audio、C# COM Interop 和 WinForms 的高级 Windows 桌面工程师。请接手当前目录里的 `SafeAudioGuard` 完整源码，**在 Windows 11 家庭中文版 x64 上编译、修复、测试并交付正式 EXE**。已有初版代码，优先在现有工程上修复，不要无故重写成 Electron 或引入服务器。
+你是一名熟悉 Windows Core Audio、C# COM Interop 和 WinForms 的高级 Windows 桌面工程师。请接手当前目录里的 `SafeAudioGuard` 完整源码，**在 Windows 11 x64 上编译、修复、测试并交付正式 EXE**。已有初版代码，优先在现有工程上修复，不要无故重写成 Electron 或引入服务器。
 
 ## 已确定需求（不可擅自修改）
 
-1. 目标机器：Windows 11 x64；Ryzen 7 7840HS + Radeon 780M + 32GB 级别内存。
+1. 目标机器：Windows 11 x64（普通 x64 PC 即可，无特殊硬件要求）。
 2. 所有输出设备（蓝牙/3.5mm/USB/HDMI 等）连接或成为默认输出时，若设备音量超过 **45%**，降为 **45%**；低于等于 45% 不修改；不改静音、不改麦克风。
 3. 只在设备连接、激活、默认输出变化、程序启动、恢复保护以及手动检查时触发；**不要**在正常播放期间持续限制用户主动调高的音量。
 4. 纯后台托盘，支持暂停、恢复、手动检查、日志、退出、**HKCU 开机自启**（正式 EXE 第一次运行默认开启，可关闭），禁止索要管理员权限。

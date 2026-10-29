@@ -5,6 +5,8 @@
 ![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
 ![platform](https://img.shields.io/badge/platform-Windows%20x64-0078D4?logo=windows&logoColor=white)
 ![dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
+![license](https://img.shields.io/badge/license-MIT-blue)
+![build](https://github.com/yangxijia111/safe-audio-guard/actions/workflows/windows-build.yml/badge.svg)
 
 ---
 
@@ -152,7 +154,7 @@ dotnet publish SafeAudioGuard/SafeAudioGuard.csproj -c Release -r win-x64 --self
 
 ### License
 
-尚未最终确定。计划采用 **MIT License**（待仓库所有者确认后补充 `LICENSE` 文件）。
+本项目采用 [MIT License](LICENSE) 开源。
 
 ---
 
@@ -300,4 +302,4 @@ Development background and fixed requirements: [docs/AGENT_PROMPT.md](docs/AGENT
 
 ### License
 
-Not finalized yet. **MIT License** is planned (the `LICENSE` file will be added once the repository owner confirms).
+This project is licensed under the [MIT License](LICENSE).
